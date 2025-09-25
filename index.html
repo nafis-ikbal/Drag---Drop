@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="./src/output.css" rel="stylesheet">
+  <title>Drag & Drop</title>
+</head>
+<body class="bg-stone-300 p-6">
+  <div class="flex justify-center items-center flex-col mb-5">
+    <h1 class="text-3xl font-semibold">Drag & Drop between 2 Containers</h1>
+    <div class="flex my-4">
+      <div class="container1">
+        <div class="box" draggable="true">box1</div>
+        <div class="box" draggable="true">box2</div>
+        <div class="box" draggable="true">box3</div>
+      </div>
+
+      <div class="container2"></div>
+    </div>
+  </div>
+
+  <div class="flex justify-center items-center flex-col">
+    <h1 class="text-3xl font-semibold">Drag & Drop from local system</h1>
+    <div class="drop-area">
+      <i class="fa-solid fa-images fa-2xl" style="color: #B197FC;"></i>
+      <p class="info mt-6 text-lg">Drop a .png or .jpg files here!</p>
+    </div>
+  </div>
+
+  <script src="/src/script.js"></script>
+</body>
+</html>

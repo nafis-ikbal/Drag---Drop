@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.container1, .container2 {
+  @apply w-95 h-40 border-2 border-dashed mr-6 bg-stone-200
+         flex justify-center items-center;
+}
+
+.box {
+  @apply text-3xl font-thin ml-4 p-4 bg-rose-400 rounded-xl cursor-grab;
+}
+
+.drop-area {
+  @apply w-[40rem] h-[24rem] border-2 border-dashed mt-4 bg-stone-300
+         flex justify-center items-center flex-col;
+}
+
+.drag-img {
+  @apply bg-stone-100;
+}
