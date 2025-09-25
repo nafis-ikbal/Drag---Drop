@@ -2,6 +2,10 @@
 
 A modern, interactive drag and drop application built with vanilla JavaScript and styled with Tailwind CSS. This project demonstrates two different drag and drop functionalities: moving elements between containers and dropping files from the local system.
 
+## 🌐 Live Preview
+
+Check out the live demo: [Drag & Drop](https://drag-and-drop0.netlify.app/)
+
 ## ✨ Features
 
 ### 📦 Container-to-Container Drag & Drop
